@@ -117,7 +117,7 @@ const PostAddNew = () => {
       })
     }
     fetchUser()
-  },[])
+  },[setValue, userInfo?.uid])
 
   const selectCategory = (item) => {
     setValue("category",{
